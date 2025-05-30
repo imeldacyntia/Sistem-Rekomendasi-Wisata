@@ -174,11 +174,7 @@ Distribusi nilai rating yang diberikan oleh pengguna menunjukkan pola yang cukup
 
 ### **Tahapan Data Preparation untuk Content-Based Filtering (CBF)**
 
-* Melakukan ekstraksi fitur teks pada kolom `category` menggunakan `TfidfVectorizer` dengan parameter:
-
-  * `ngram_range = (1, 2)`
-  * `stop_words = 'english'`
-  * `max_features = 5000`
+* Melakukan ekstraksi fitur teks pada kolom category menggunakan TfidfVectorizer dengan parameter default, tanpa spesifikasi tambahan. 
 * Tujuan: Mengubah data teks kategori wisata menjadi representasi numerik (vektor TF-IDF) yang bisa dihitung kemiripannya untuk rekomendasi berbasis konten.
 
 ### **Tahapan Data Preparation untuk Collaborative Filtering (CF)**
