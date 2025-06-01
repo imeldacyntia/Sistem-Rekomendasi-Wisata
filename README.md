@@ -1,5 +1,8 @@
 # Laporan Proyek Machine Learning - Imelda Cyntia
 
+![Rating](images/submission.png)
+
+
 ## Project Overview
 
 ### Latar Belakang
